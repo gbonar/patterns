@@ -14,11 +14,4 @@ namespace Patterns.OCP.Filters
                     yield return i;
         }
     }
-
-    public interface IFilter<T>
-    {
-        IEnumerable<T> Filter(IEnumerable<T> items, Specification<T> spec);
-    }
-
-
 }

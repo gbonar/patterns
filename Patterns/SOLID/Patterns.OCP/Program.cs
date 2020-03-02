@@ -8,6 +8,7 @@ namespace Patterns.OCP
     {
         static void Main(string[] args)
         {
+            #region OCP
             var apple = new Product("Jabłko", Color.Green, Size.Small);
             var tree = new Product("Drzewo", Color.Green, Size.Large);
 
@@ -23,6 +24,8 @@ namespace Patterns.OCP
             {
                 Console.WriteLine($" - {p.Name} jest zielony");
             }
+            #endregion
+
         }
     }
 }
